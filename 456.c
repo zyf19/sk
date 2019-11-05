@@ -7,12 +7,9 @@ int main(void)
     if (x<=50){
         y=0.53*x;
     }
-    else
-    {
+    else{
         y=0.58*x-2.5;
     }
     printf("y=f(%f)=%.2f\n",x,y);
     return 0;
-    
-    
 }
